@@ -1,0 +1,17 @@
+{
+  "name": "ecfr",
+  "version": "1.0.0",
+  "description": "Fetch eCFR HTML and optionallyconvert to DOCX",
+  "main": "index.js",
+  "bin": {
+    "ecfr": "index.js"
+  },
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "html-to-docx": "^1.8.0"
+  }
+}
